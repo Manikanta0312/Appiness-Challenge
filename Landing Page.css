@@ -1,0 +1,139 @@
+.container-fluid{
+	padding: 0;
+	background-color: #fff;
+}
+.header-container{
+	padding-top: 20px;
+}
+.header{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header-row{
+	background-color: #fff;
+	margin: 0;
+}
+.row-image, .row-phoneno{
+	text-align: center;
+}
+.row-phoneno>img{
+	height: 25px;
+}
+.row-phoneno{
+	display: flex;
+	width: 13%;
+    vertical-align: middle;
+    margin-top: 25px;
+    margin-left: 25%;
+    border: 1px solid #ececec;
+}
+.row-phoneno>p{
+	color: gray;
+}
+p, b{
+	color: white;
+}
+.btn-book {
+	background-color: deeppink;
+    color: white;
+}
+input[type=text],input[type=email],input[type=tel], textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  background-color: #f8f5f5;
+}
+input[type=submit]{
+	width: 30%;
+    background-color: deeppink;
+    color: white;
+    border: 1px solid deeppink;
+    padding: 5px;
+    font-size: 15px;
+}
+.btn-appoinment{
+	background-color: #8fa78f;
+	margin-top: 20px;
+	display: flex;
+    color: white;
+	float: right;
+	border-radius: 10px 0px 0px 10px;
+}
+.healthy-heart{
+	margin-top:80px;
+	font-size: 40px;
+}
+.Book-appointment-form{
+	padding: 17px;
+}
+.Book-appointment-form>.panel-heading{
+	background-color: #fff;
+	border-color: #fff;
+}
+.Book-appointment-form>.panel-heading>.panel-title{
+	font-size: 20px;
+    color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.Sakra-Department{
+	font-size: 20px;
+}
+.heading>h1{
+	font-size: 28px;
+	color: darkblue;
+}
+.overview>p, .ivus>p, .World-Hospital>p, .choose-kk>p{
+	color: black;
+	float: left;
+	margin: 20px auto;
+	font-size: 22px;
+}
+label{
+	font-size: 20px;
+    color: lightblue;
+}
+a{
+	margin-left: 15px;
+    font-size: 20px;
+}
+.col-lg-4{
+	display: flex;
+	margin: 10px auto;
+}
+.card-title, .card-text{
+	color: gray;
+}
+.card-text{
+	font-size: 20px;
+}
+.card>.row{
+	border: 1px solid #ececec;
+	background-color: #fff;
+}
+.benefits:before{
+	content:'';
+	background: url('Assets/checked (10).png');
+	height: 16px;
+	width: 33px;
+	position: absolute;
+	background-repeat: no-repeat;
+	margin-left: -20px;
+}
+.benefits{
+	margin-left: 20px;
+}
+.seperator{
+	border-bottom:5px solid blue;
+	width:5%;
+}
+footer{
+	background-color: #24245f;
+    padding:50px;
+	text-align:center;
+	color: white;
+}
